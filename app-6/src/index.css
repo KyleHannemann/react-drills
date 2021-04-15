@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#inputContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+#toDoButton{
+  background-color:lightskyblue;
+  width: 75px;
+}
+#toDoButton:hover{
+  background-color:lime;
+
+}
+.toDoList{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 275px;
+  height: 75px;
+  border-bottom: 1px solid grey;
+}
+.toDoList > span{
+  
+  font-size: 24px;
+  
+}
+.completeButton{
+  color: red;
+  background-color: inherit;
+  border: none;
+  font-size: 32px;
+}
