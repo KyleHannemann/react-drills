@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.listItem{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  border-bottom: 1px solid grey;
+}
+.listItem > button{
+  color: red;
+  background-color: inherit;
+  border: none;
+}
