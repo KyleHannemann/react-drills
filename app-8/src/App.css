@@ -1,7 +1,33 @@
 .App {
   text-align: center;
 }
-
+#tabContainer{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  height: 50vw;
+}
+#tabContainer > table > thead{
+  background-color:azure;
+  font-size: 22px;
+}
+tr:nth-child(even){
+  background-color: white;
+ 
+}
+button{
+  margin-right: 10px;
+}
+td{
+  border: solid black 1px;
+}
+tr:nth-child(odd){
+  background-color: rgb(182, 182, 218);
+}
+table{
+  border: black solid 1px;
+  width: 500px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
